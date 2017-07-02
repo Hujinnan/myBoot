@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test
+    username: root
+    password: root
+
+  girl:
+    cupSize: B
+    age: 18
+
+  server:
+    port: 8080
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
